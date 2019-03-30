@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_marginTop="20dp"
+        android:id="@+id/Name"
+        android:hint="Name" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:layout_marginTop="20dp"
+        android:id="@+id/Email"
+        android:hint="Email" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/Password"
+        android:hint="Password" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:layout_marginTop="20dp"
+        android:id="@+id/confirm_password"
+        android:hint="confirm password" />
+
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_marginTop="25dp"
+        android:weightSum="6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <Button
+            android:background="@color/colorPrimaryDark"
+            android:layout_marginRight="10dp"
+            android:textColor="#fff"
+            android:id="@+id/btncancelid"
+            android:text="Cancel"
+            android:layout_weight="3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            />
+
+
+
+        <Button
+            android:background="@color/colorAccent"
+            android:layout_weight="3"
+            android:textColor="#fff"
+            android:text="Register"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/register" />
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>
